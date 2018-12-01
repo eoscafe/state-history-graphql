@@ -1,3 +1,4 @@
 # GraphQL API for EOS State History Plugin
-
-Use with playground: https://github.com/prisma/graphql-playground
+1. Download npx
+2. ```npx postgraphile -c POSTGRES_URI -a -j -s chain```
+3. Visualize with playground: https://github.com/prisma/graphql-playground
